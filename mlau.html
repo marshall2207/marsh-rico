@@ -1,0 +1,251 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.menu {
+  width: 100%;
+  height:50px;
+  padding: 10px;
+  text-align: left;
+  background-color: rgb(105, 235, 90);
+  
+}
+
+.menu a {
+  padding-left: 10px;
+  margin-top: 7px;
+  display: inline;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.main {
+  float: left;
+  height: 100%;
+  width: 25%;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(111, 128, 130);
+}
+
+.right {
+  float: right;
+  width: 75%;
+  height: 500px;
+  margin-top: 5px;
+  text-align: center;
+  color: #000000;
+}
+h2{
+font-family: monospace;
+font-size: 20PX;
+color: #000;
+text-align: left;
+
+}
+h3{
+font-family: monospace;
+font-size: 20PX;
+color: #000;
+text-align: center;
+
+}
+ 
+li{
+  list-style:none;
+  display: inline;
+}
+li :hover{
+text-decoration: underline;
+}
+
+  #overflowTest2 {
+    padding: 0px;
+    width:100%;
+    height: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+    border-radius: 0.5rem;
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+
+.container{
+
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #656565;
+    border-width: 2px;
+    cursor: pointer;
+    background-color: white;
+    
+
+  }
+.container:hover{
+    border-style: solid;
+    border-color: #212020;
+    border-width: 3px;
+    background-color: antiquewhite;
+
+}
+.card{
+  display: flex;
+  flex-direction: column;
+
+}
+.card4 .container {
+   border-top-left-radius: 20px ;
+   border-bottom-left-radius:  20px;
+   margin: none;
+}
+a{
+    text-decoration: none;
+}
+
+p{
+  color: #000;
+  text-align: left;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(172, 170, 170); 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b1b1b1; 
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+ .main{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 80px;
+  background-color: rgb(105, 235, 90);
+ }
+.card4 .container{
+  height: 100px;
+}
+
+
+ 
+
+}
+</style>
+</head>
+<body style="font-family:Verdana;background-color: gainsboro; height: 550px;" >
+
+  
+
+
+<div style="overflow:auto" >
+  <div class="menu">
+    <li>GRANITE</li>
+    <li><a href="test.html">Home</a></li>
+    <li><a href="#">Photo</a></li>
+    <li><a href="form.html">Book</a></li>
+  </div>
+  
+  <div class="main">
+    <h3>Get in touch </h3>
+       <div class="card4">
+          
+          <div class="container">
+            <h2>About Us </h2>
+            
+            
+          </div>
+        </div>
+          
+          <div class="card4">
+            <div class="container">
+              <h2>Contact Us </h2>
+              
+              
+            </div>
+          </div>
+       
+ </div>
+  
+
+  <div class="right">
+    
+    <h3>Book package</h3>
+    <div id="overflowTest2">
+
+        <div class="card">
+            
+            <a href="mlau.html"><div class="container">
+              <h2>Dinner </h2>
+      <p>tttttttttttttttttttttttttt<BR>
+          ttttttttttttttttttttRRRRRRRRR<BR>
+              RRRRRRRttttttttttttttttttttttt</p>
+              <img src="gran.png" style="width: 200px">
+            </div></a>
+         </div>
+         <div class="card1">
+            
+            <div class="container">
+              <h2>Breakfast</h2>
+              <p>Explore neighbor island <BR>
+                  Discover the coral and beautiful marine life<BR>
+                  Explore a fishing trip catch and release</p>
+            </div>
+         </div>
+         <div class="card2">
+            
+          <div class="container">
+            <h2>Bicycle</h2>
+            <p>Explore neighbor island <BR>
+                Discover the coral and beautiful marine life<BR>
+                Explore a fishing trip catch and release</p>
+          </div>
+       </div>
+       <div class="card3">
+            
+        <div class="container">
+          <h2>Excursions</h2>
+          <p>Explore neighbor island <BR>
+              Discover the coral and beautiful marine life<BR>
+              Explore a fishing trip catch and release</p>
+        </div>
+     </div>
+         
+         
+    </div>
+  
+</div>
+
+
+<div style="text-align:center;padding:10px;margin-top:7px;height: 20px;width: 100%;">© copyright this web was published by Marshall</div>
+
+</body>
+</html>

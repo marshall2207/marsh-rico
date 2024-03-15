@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="gran.css">
+
+</head>
+<body>
+
+<div class="header">
+
+<div class="container">
+  <img class="pic" src="pics.png" alt="Notebook" >
+  <div class="content">
+    <h1>Welcome </h1>
+    <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, 
+        eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei.</p>
+  </div>
+</div>
+</div>
+
+<div id="navbar">
+ 
+    <li><a  href="javascript:void(0)">Home</a></li>
+    <li><a class="active"href="javascript:void(0)">Book</a></li>
+    <li><a href="javascript:void(0)">Photo</a></li>
+    <li><a href="javascript:void(0)">Contact</a></li>
+
+
+</div>
+
+<div class="content">
+  
+   <div class="main"> 
+    
+   
+    
+   
+  </div>
+
+
+    
+</div>
+<div class="footer">
+  <li><a href="javascript:void(0)">Book</a></li>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <li><a href="javascript:void(0)">Book</a></li>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+ </div>
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html>
