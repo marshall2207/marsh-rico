@@ -1,0 +1,217 @@
+<html>
+<body>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<div class="navbar">
+    <ul>
+        <li><a href="test.html">Home</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="form.html">About Us</a></li>
+        <li><a href="main.html">Book now</a></li>
+    </ul>
+
+</div>
+<div class="header">
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="pic3.jpeg" style="width:100%">
+          <div class="text">Granite Self-Catering</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="pic9.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="pic8.jpeg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+    
+</div>
+<div class="main">
+booking form
+<button type="submit">Reservations</button>
+      
+
+</div>
+<hr color="#6d6b6b" width="100%">
+<div class="main2">
+    <div class="imgtex">
+       <h2>Welcome to paradise</h2>
+       <p>Explore neighbor island <BR>
+           Discover the coral and beautiful marine life<BR>
+           Explore a fishing trip catch and release</p>
+     </div>
+     <div class="image">
+
+     </div>
+     <div class="image1">
+     </div>
+
+</div>
+<hr color="#6d6b6b" width="100%">
+<div class="Amenities">
+    
+    The Essentials<br>
+    The Essentials<br>
+    The Essentials<br>
+    The Essentials<br>
+    The Essentials<br>
+    The Essentials<br>
+    The Essentials
+ 
+ 
+ </div>
+ <hr color="#6d6b6b" width="100%">
+<h3>Reserve our service</h3>
+<p>Have the best experience<BR>
+    taste the local gastronomy<BR>
+    Explore a fishing trip catch and release</p>
+<div class="Service">
+
+   <div class="cont">
+       <h2>Breakfast</h2>
+         <button class="bt" type="submit"><a href="xxx.html"> See Menu</a></button>
+       </p>
+
+     </div>
+     <div class="cont">
+       <h2>Dinner</h2>
+      
+           <button class="bt" type="submit"><a href="xxx.html"> learn more</a></button>
+       </p>
+
+     </div>
+     <div class="cont">
+        <h2>Barbecue</h2>
+      
+          <button class="bt" type="submit"><a href="xxx.html"> learn more</a></button>
+          </p>
+ 
+      </div>
+     <div class="cont">
+       <h2>Bicycle</h2>
+     
+         <button class="bt" type="submit"><a href="xxx.html"> learn more</a></button>
+         </p>
+
+     </div>
+
+
+</div>
+
+<hr color="#6d6b6b" width="100%">
+
+<h3>Popular nearby Activities </h3>
+<h2>Welcome to paradise</h2>
+       <p>Explore neighbor island <BR>
+           Discover the coral and beautiful marine life<BR>
+           Explore a fishing trip catch and release</p>
+<div class="Excursion">
+   
+     <div class="exc">
+       <h2>Hiking</h2>
+       <button type="submit">Learn more</button>
+       
+     </div>
+     <div class="exc">
+       <h2>Fishing </h2>
+       <button type="submit">Learn more</button>
+       
+     </div>
+     <div class="exc">
+       <h2>Kayaking </h2>
+       <button type="submit">Learn more</button>
+       
+     </div>
+     <div class="exc">
+       <h2>Snorkeling </h2>
+       <button type="submit">Learn more</button>
+       
+     </div>
+     <div class="exc">
+       <h2>Valle de mai</h2>
+       <button type="submit">Learn more</button>
+       
+     </div>
+     <div class="exc">
+       <h2>Karims Bar </h2>
+       <button type="submit">Learn more</button>
+       
+     </div>
+     
+
+
+</div>
+
+
+<div class="Social">
+
+    <div class="cont">
+        <h2>Breakfast</h2>
+          <button class="bt" type="submit"><a href="xxx.html"> See Menu</a></button>
+        </p>
+ 
+      </div>
+      <div class="cont">
+        <h2>Dinner</h2>
+       
+            <button class="bt" type="submit"><a href="xxx.html"> learn more</a></button>
+        </p>
+ 
+      </div>
+      <div class="cont">
+        <h2>Bicycle</h2>
+      
+          <button class="bt" type="submit"><a href="xxx.html"> learn more</a></button>
+          </p>
+ 
+      </div>
+ 
+ 
+ </div>
+
+</body>
+
+</html>
